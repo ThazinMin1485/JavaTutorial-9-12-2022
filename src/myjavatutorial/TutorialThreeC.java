@@ -3,10 +3,27 @@ package myjavatutorial;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * <h2> TutorialThreeC Class</h2>
+ * <p>
+ * Process for Displaying TutorialThreeC
+ * </p>
+ * 
+ * @author User
+ *
+ */
 public class TutorialThreeC {
 
+    /**
+     * <h2> main</h2>
+     * <p>
+     * 
+     * </p>
+     *
+     * @param args
+     * @return void
+     */
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         List<String> list = (List<String>) new ArrayList<String>();
         list.add("Python");
         list.add("JAVA");

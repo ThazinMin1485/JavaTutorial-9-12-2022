@@ -4,11 +4,47 @@ import java.util.*;
 import java.util.Scanner;
 import java.util.stream.*;
 
+/**
+ * <h2> ExamResult Class</h2>
+ * <p>
+ * Process for Displaying ExamResult
+ * </p>
+ * 
+ * @author User
+ *
+ */
 class ExamResult {
+    /**
+     * <h2> id</h2>
+     * <p>
+     * id
+     * </p>
+     */
     int id;
+    /**
+     * <h2> name</h2>
+     * <p>
+     * name
+     * </p>
+     */
     String name;
+    /**
+     * <h2> mark</h2>
+     * <p>
+     * mark
+     * </p>
+     */
     float mark;
 
+    /**
+     * <h2> Constructor for ExamResult </h2>
+     * <p>
+     * Constructor for ExamResult
+     * </p>
+     * @param id
+     * @param name
+     * @param mark
+     */
     public ExamResult(int id, String name, float mark) {
         this.id = id;
         this.name = name;
@@ -16,10 +52,27 @@ class ExamResult {
     }
 }
 
+/**
+ * <h2> ArraysTest Class</h2>
+ * <p>
+ * Process for Displaying ArraysTest
+ * </p>
+ * 
+ * @author User
+ *
+ */
 public class ArraysTest {
 
+    /**
+     * <h2> main</h2>
+     * <p>
+     * 
+     * </p>
+     *
+     * @param args
+     * @return void
+     */
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         try (Scanner s = new Scanner(System.in)) {
             System.out.println("Enter an integer value");
             if (s.hasNextInt()) {

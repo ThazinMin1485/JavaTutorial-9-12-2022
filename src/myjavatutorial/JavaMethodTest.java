@@ -2,10 +2,28 @@ package myjavatutorial;
 
 import java.util.Scanner;
 
+/**
+ * <h2> JavaMethodTest Class</h2>
+ * <p>
+ * Process for Displaying JavaMethodTest
+ * </p>
+ * 
+ * @author User
+ *
+ */
 public class JavaMethodTest {
 
+    /**
+     * <h2> main</h2>
+     * <p>
+     * 
+     * </p>
+     *
+     * @param args
+     * @return void
+     */
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number");
             int num = sc.nextInt();
@@ -14,6 +32,15 @@ public class JavaMethodTest {
             System.out.println("The larger number is " + jm.maxNumber(5, 4));
     }
 
+    /**
+     * <h2> findPrimeNumber</h2>
+     * <p>
+     * 
+     * </p>
+     *
+     * @param num
+     * @return void
+     */
     public static void findPrimeNumber(int num) {
         int a = num / 2;
         int c=0;
@@ -33,6 +60,17 @@ public class JavaMethodTest {
             }
         }
     }
+    /**
+     * <h2> maxNumber</h2>
+     * <p>
+     * 
+     * </p>
+     *
+     * @param x
+     * @param y
+     * @return
+     * @return int
+     */
     public int maxNumber(int x,int y) {
         if(x>y) {
             return x;
